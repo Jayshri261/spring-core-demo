@@ -22,7 +22,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://github.com/Jayshri261/spring-boot-demo.git'
+                git 'https://github.com/Jayshri261/spring-core-demo.git'
 
               
 
@@ -32,6 +32,7 @@ pipeline {
 
           
         }'
+    }
 
               
 
@@ -41,3 +42,6 @@ pipeline {
 
           
         }
+        }
+    }
+}
